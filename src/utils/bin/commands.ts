@@ -23,9 +23,9 @@ Taper 'contact' pour voir les liens utiles.
 };
 
 // Redirection
-export const repo = async (args: string[]): Promise<string> => {
-  window.open(`${config.repo}`);
-  return 'Opening Github repository...';
+export const stats = async (args: string[]): Promise<string> => {
+  window.open(`${config.stats}`);
+  return 'Ouverture de la page des stats...';
 };
 
 // About
@@ -144,6 +144,6 @@ export const banniere = (args?: string[]): string => {
 Bienvenue à toi jeune explorateur de l'Internet!   
 Taper 'aide' pour voir la liste des commandes disponibles.
 Taper 'contact' pour voir les liens utiles.
-Type 'repo' or click <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.repo}" target="_blank">here</a></u> for the Github repository.
+Type 'stats' or click <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.stats}" target="_blank">here</a></u> for the Github repository.
 `;
 };
