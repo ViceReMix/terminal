@@ -1,6 +1,6 @@
 import config from '../../../config.json';
 
-const sumfetch = async (args: string[]): Promise<string> => {
+const contact = async (args: string[]): Promise<string> => {
   if (config.ascii === 'cveinnt') {
     return `                                                  
              @@@@@@@@@@@@@                   sumfetch: summary display
@@ -23,7 +23,7 @@ const sumfetch = async (args: string[]): Promise<string> => {
 `;
   } else {
     return `
-    ────██──██─────                          Résumé
+    ────██──██─────                          Résumé des Liens
     ███████████▄───                         -----------
     ──███████████▄─                          A PROPOS
     ──███────▀████─                          ${config.name}
