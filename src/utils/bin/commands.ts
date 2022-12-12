@@ -34,12 +34,12 @@ export const about = async (args: string[]): Promise<string> => {
 Bienvenue dans mon univers!
 Pour en savoir plus:
 'contact' - lien utiles.
-'resume' - accéder aux dernières stats.
-'readme' - my github readme.`;
+'stats' - accéder aux dernières stats.
+'tuto' - suivez le guide pour démarrer.`;
 };
 
-export const resume = async (args: string[]): Promise<string> => {
-  window.open(`${config.resume_url}`);
+export const tuto = async (args: string[]): Promise<string> => {
+  window.open(`${config.tuto_url}`);
   return 'Ouverture des stats...(accepter la fenêtre pop-up!)';
 };
 

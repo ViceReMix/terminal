@@ -11,7 +11,7 @@ Base Return for sumfetch.
     ███████████▄───                         -----------
     ──███████████▄─                          A PROPOS
     ──███────▀████─                          ${config.name}
-    ──███──────███─                          <u><a href="${config.resume_url}" target="_blank">resume</a></u>
+    ──███──────███─                          <u><a href="${config.tuto_url}" target="_blank">Tutoriel pour bien commencer.</a></u>
     ──███────▄███▀─                         爵 <u><a href="${config.stats}" target="_blank">Trading Stats</a></u>
     ──█████████▀───                         -----------
     ──███████████▄─                          CONTACT 
