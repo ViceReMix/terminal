@@ -14,7 +14,7 @@ export const help = async (args: string[]): Promise<string> => {
       c += Object.keys(bin).sort()[i - 1] + ' ';
     }
   }
-  return `Bienvenue à toi jeune explorateur! Voici la liste des commandes disponibles:
+  return `Voici la liste des commandes disponibles:
 \n${c}\n
 [tab]: auto-completion.
 [ctrl+l]/clear: nettoyage du terminal.\n
@@ -146,6 +146,8 @@ export const banner = (args?: string[]): string => {
   ╚██╗ ██╔╝██║██║     ██╔══╝      ██╔══██╗██╔══╝  ██║╚██╔╝██║██║ ██╔██╗ 
    ╚████╔╝ ██║╚██████╗███████╗    ██║  ██║███████╗██║ ╚═╝ ██║██║██╔╝ ██╗
     ╚═══╝  ╚═╝ ╚═════╝╚══════╝    ╚═╝  ╚═╝╚══════╝╚═╝     ╚═╝╚═╝╚═╝  ╚═╝
+
+Bienvenue à toi jeune explorateur!    
 Taper 'help' pour voir la liste des commandes disponibles.
 Taper 'sumfetch' pour voir le résumé.
 Type 'repo' or click <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.repo}" target="_blank">here</a></u> for the Github repository.
