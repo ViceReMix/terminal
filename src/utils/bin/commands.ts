@@ -18,7 +18,7 @@ export const aide = async (args: string[]): Promise<string> => {
 \n${c}\n
 [tab]: auto-completion.
 [ctrl+l]/clear: nettoyage du terminal.\n
-Taper 'sumfetch' pour voir le résumé.
+Taper 'contact' pour voir les liens utiles.
 `;
 };
 
@@ -33,7 +33,7 @@ export const about = async (args: string[]): Promise<string> => {
   return `Bonjour, Je suis ${config.name}. 
 Bienvenue dans mon univers!
 Pour en savoir plus:
-'sumfetch' - lien utiles.
+'contact' - lien utiles.
 'resume' - accéder aux dernières stats.
 'readme' - my github readme.`;
 };
@@ -148,7 +148,7 @@ export const banner = (args?: string[]): string => {
 
 Bienvenue à toi jeune explorateur de l'Internet!   
 Taper 'aide' pour voir la liste des commandes disponibles.
-Taper 'sumfetch' pour voir le résumé.
+Taper 'contact' pour voir les liens utiles.
 Type 'repo' or click <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.repo}" target="_blank">here</a></u> for the Github repository.
 `;
 };
