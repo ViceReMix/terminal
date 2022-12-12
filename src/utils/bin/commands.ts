@@ -112,7 +112,7 @@ export const emacs = async (args?: string[]): Promise<string> => {
 };
 
 export const sudo = async (args?: string[]): Promise<string> => {
-  return `Permission refusée : avec peu de pouvoir ... n'a-t-on pas de responsabilité ? `;
+  return `Permission refusée : avec peu de pouvoir ... peu de responsabilité ? `;
 };
 
 // Banner
