@@ -30,8 +30,8 @@ export const repo = async (args: string[]): Promise<string> => {
 
 // About
 export const about = async (args: string[]): Promise<string> => {
-  return `Bonjour, Je m'appelle ${config.name}. 
-Bienvenue dans un nouvel univers!
+  return `Bonjour, Je suis ${config.name}. 
+Bienvenue dans mon univers!
 Pour en savoir plus:
 'sumfetch' - lien utiles.
 'resume' - accéder aux dernières stats.
@@ -55,13 +55,13 @@ here are the ways you can support my work:
 // Contact
 export const email = async (args: string[]): Promise<string> => {
   window.open(`mailto:${config.email}`);
-  return `Opening mailto:${config.email}...`;
+  return `Ouverture du client mail vers:${config.email}...`;
 };
 
 export const github = async (args: string[]): Promise<string> => {
   window.open(`https://github.com/${config.social.github}/`);
 
-  return 'Opening github...';
+  return 'Ouverture de github...';
 };
 
 export const linkedin = async (args: string[]): Promise<string> => {
