@@ -43,5 +43,5 @@ const contact = async (args: string[]): Promise<string> => {
   }
 };
 
-export default sumfetch;
+export default contact;
 
