@@ -23,9 +23,9 @@ const sumfetch = async (args: string[]): Promise<string> => {
 `;
   } else {
     return `
-    ────██──██─────                          sumfetch
+    ────██──██─────                          Résumé
     ███████████▄───                         -----------
-    ──███████████▄─                          ABOUT
+    ──███████████▄─                          A PROPOS
     ──███────▀████─                          ${config.name}
     ──███──────███─                          <u><a href="${config.resume_url}" target="_blank">resume</a></u>
     ──███────▄███▀─                         爵 <u><a href="${config.repo}" target="_blank">Github repo</a></u>

@@ -14,7 +14,7 @@ export const help = async (args: string[]): Promise<string> => {
       c += Object.keys(bin).sort()[i - 1] + ' ';
     }
   }
-  return `Bienvenue! Voici la liste des commandes disponibles:
+  return `Bienvenue à toi jeune explorateur! Voici la liste des commandes disponibles:
 \n${c}\n
 [tab]: auto-completion.
 [ctrl+l]/clear: nettoyage du terminal.\n
