@@ -147,8 +147,8 @@ export const banner = (args?: string[]): string => {
   ╚██╗ ██╔╝██║██║     ██╔══╝      ██╔══██╗██╔══╝  ██║╚██╔╝██║██║ ██╔██╗ 
    ╚████╔╝ ██║╚██████╗███████╗    ██║  ██║███████╗██║ ╚═╝ ██║██║██╔╝ ██╗
     ╚═══╝  ╚═╝ ╚═════╝╚══════╝    ╚═╝  ╚═╝╚══════╝╚═╝     ╚═╝╚═╝╚═╝  ╚═╝
-Taper 'help' pour voir la liste des commandes disponibles.
-Type 'sumfetch' to display summary.
+Ecrire 'help' pour voir la liste des commandes disponibles.
+Ecrire 'sumfetch' pour voir le résumé.
 Type 'repo' or click <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.repo}" target="_blank">here</a></u> for the Github repository.
 `;
 };
