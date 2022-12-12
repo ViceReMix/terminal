@@ -28,8 +28,3 @@ export const getQuote = async () => {
     quote: `“${data.content}” — ${data.author}`,
   };
 };
-
-const getBtcprice = async() => {
-  const response = await axios.get('https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd')
-  return data;
-}
