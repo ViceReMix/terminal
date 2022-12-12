@@ -26,11 +26,11 @@ export const readme = async (args: string[]): Promise<string> => {
   ${readme}`;
 };
 
-export const meteo = async (args: string[]): Promise<string> => {
+export const weather = async (args: string[]): Promise<string> => {
   const city = args.join('+');
   if (!city) {
-    return 'Taper: weather [ville]. Example: weather budapest';
+    return 'Usage: weather [city]. Example: weather casablanca';
   }
-  const meteo = await getWeather(city);
+  const weather = await getWeather(city);
   return weather;
 };
