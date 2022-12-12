@@ -109,8 +109,7 @@ Trading E-Books`;
 };
 
 export const cd = async (args: string[]): Promise<string> => {
-  return `unfortunately, i cannot afford more directories.
-if you want to help, you can type 'donate'.`;
+  return `Malheureusement vous n'avez pas les droits pour utiliser cette commande.`;
 };
 
 export const date = async (args: string[]): Promise<string> => {
