@@ -28,16 +28,6 @@ export const stats = async (args: string[]): Promise<string> => {
   return 'Ouverture de la page des stats...';
 };
 
-// About
-export const about = async (args: string[]): Promise<string> => {
-  return `Bonjour, Je suis ${config.name}. 
-Bienvenue dans mon univers!
-Pour en savoir plus:
-'contact' - lien utiles.
-'stats' - accéder aux dernières stats.
-'tuto' - suivez le guide pour démarrer.`;
-};
-
 export const tuto = async (args: string[]): Promise<string> => {
   window.open(`${config.tuto_url}`);
   return 'Ouverture des stats...(accepter la fenêtre pop-up!)';
