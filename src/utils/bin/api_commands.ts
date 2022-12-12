@@ -32,5 +32,5 @@ export const meteo = async (args: string[]): Promise<string> => {
     return 'Taper: weather [ville]. Example: weather budapest';
   }
   const meteo = await getWeather(city);
-  return weather;
+  return meteo;
 };
