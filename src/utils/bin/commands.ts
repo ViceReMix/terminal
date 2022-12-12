@@ -30,17 +30,17 @@ export const repo = async (args: string[]): Promise<string> => {
 
 // About
 export const about = async (args: string[]): Promise<string> => {
-  return `Hi, I am ${config.name}. 
-Welcome to my website!
-More about me:
-'sumfetch' - short summary.
-'resume' - my latest resume.
+  return `Bonjour, Je suis ${config.name}. 
+Bienvenue dans un nouvel univers!
+Pour en savoir plus:
+'sumfetch' - lien utiles.
+'resume' - accéder aux dernières stats.
 'readme' - my github readme.`;
 };
 
 export const resume = async (args: string[]): Promise<string> => {
   window.open(`${config.resume_url}`);
-  return 'Opening resume...';
+  return 'Ouverture des stats...(accepter la fenêtre pop-up!)';
 };
 
 // Donate
