@@ -101,11 +101,11 @@ export const whoami = async (args: string[]): Promise<string> => {
 };
 
 export const ls = async (args: string[]): Promise<string> => {
-  return `a
-bunch
-of
-fake
-directories`;
+  return `Data Mining
+Indicators
+Machine Learning
+SSH Keys
+Trading E-Books`;
 };
 
 export const cd = async (args: string[]): Promise<string> => {
