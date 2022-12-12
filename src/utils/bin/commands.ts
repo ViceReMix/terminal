@@ -18,7 +18,7 @@ export const help = async (args: string[]): Promise<string> => {
 \n${c}\n
 [tab]: auto-completion.
 [ctrl+l]/clear: nettoyage du terminal.\n
-Ecrire 'sumfetch' pour voir le résumé.
+Taper 'sumfetch' pour voir le résumé.
 `;
 };
 
@@ -147,8 +147,8 @@ export const banner = (args?: string[]): string => {
   ╚██╗ ██╔╝██║██║     ██╔══╝      ██╔══██╗██╔══╝  ██║╚██╔╝██║██║ ██╔██╗ 
    ╚████╔╝ ██║╚██████╗███████╗    ██║  ██║███████╗██║ ╚═╝ ██║██║██╔╝ ██╗
     ╚═══╝  ╚═╝ ╚═════╝╚══════╝    ╚═╝  ╚═╝╚══════╝╚═╝     ╚═╝╚═╝╚═╝  ╚═╝
-Ecrire 'help' pour voir la liste des commandes disponibles.
-Ecrire 'sumfetch' pour voir le résumé.
+Taper 'help' pour voir la liste des commandes disponibles.
+Taper 'sumfetch' pour voir le résumé.
 Type 'repo' or click <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.repo}" target="_blank">here</a></u> for the Github repository.
 `;
 };
