@@ -142,8 +142,8 @@ export const banniere = (args?: string[]): string => {
     ╚═══╝  ╚═╝ ╚═════╝╚══════╝    ╚═╝  ╚═╝╚══════╝╚═╝     ╚═╝╚═╝╚═╝  ╚═╝
 
 Bienvenue à toi jeune explorateur de l'Internet!   
-Taper 'aide' pour voir la liste des commandes disponibles.
-Taper 'contact' pour voir les liens utiles.
-Type 'stats' or click <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.stats}" target="_blank">here</a></u> for the Github repository.
+Tapez 'aide' pour voir la liste des commandes disponibles.
+Tapez 'stats' ou cliquez <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.stats}" target="_blank">ici</a></u> pour accéder aux stats de Trading.
+Tapez 'contact' pour voir les liens utiles.
 `;
 };
