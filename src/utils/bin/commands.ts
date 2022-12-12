@@ -14,11 +14,11 @@ export const help = async (args: string[]): Promise<string> => {
       c += Object.keys(bin).sort()[i - 1] + ' ';
     }
   }
-  return `Welcome! Here are all the available commands:
+  return `Bienvenue! Voici la liste des commandes disponibles:
 \n${c}\n
-[tab]: trigger completion.
-[ctrl+l]/clear: clear terminal.\n
-Type 'sumfetch' to display summary.
+[tab]: auto-completion.
+[ctrl+l]/clear: nettoyage du terminal.\n
+Ecrire 'sumfetch' pour voir le résumé.
 `;
 };
 
