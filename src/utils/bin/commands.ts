@@ -25,12 +25,12 @@ Taper 'contact' pour voir les liens utiles.
 // Redirection
 export const stats = async (args: string[]): Promise<string> => {
   window.open(`${config.stats}`);
-  return 'Ouverture de la page des stats...';
+  return 'Ouverture de la page des stats...(accepter la fenêtre pop-up!)';
 };
 
 export const tuto = async (args: string[]): Promise<string> => {
   window.open(`${config.tuto_url}`);
-  return 'Ouverture des stats...(accepter la fenêtre pop-up!)';
+  return 'Ouverture du tutoriel...(accepter la fenêtre pop-up!)';
 };
 
 // Donate
@@ -83,7 +83,7 @@ export const ls = async (args: string[]): Promise<string> => {
   return `Data Mining
 Indicators
 Machine Learning
-SSH Keys
+Portfolio Management
 Trading E-Books`;
 };
 
@@ -112,7 +112,7 @@ export const emacs = async (args?: string[]): Promise<string> => {
 };
 
 export const sudo = async (args?: string[]): Promise<string> => {
-  return `Permission refusée : avec peu de pouvoir ... n'a-t-on pas de responsabilité ? `;
+  return `Permission refusée : avec peu de pouvoir ... peu de responsabilité ? `;
 };
 
 // Banner
