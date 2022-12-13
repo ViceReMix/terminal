@@ -113,6 +113,7 @@ export const banniere = (args?: string[]): string => {
 Bienvenue à toi jeune explorateur de l'Internet!   
 Tapez 'aide' pour voir la liste des commandes disponibles.
 Tapez 'stats' ou cliquez <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.stats}" target="_blank">ici</a></u> pour accéder aux stats de Trading.
+Tapez 'tuto' pour savoir comment suivre les signaux de Trading.
 Tapez 'contact' pour voir les liens utiles.
 `;
 };
