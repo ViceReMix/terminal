@@ -2,10 +2,10 @@
   "readmeUrl": "https://raw.githubusercontent.com/cveinnt/cveinnt/master/README.md",
   "title": "Vice Remix",
   "name": "Vice Remix",
-  "ascii": "liveterm",
+  "ascii": "btc",
   "social": {
     "github": "ViceReMix",
-    "linkedin": "linkedin"
+    "linkedin": ""
   },
   "email": "info.webterminal@vice.re",
   "ps1_hostname": "viceremix-server",

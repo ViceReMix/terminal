@@ -48,12 +48,6 @@ export const email = async (args: string[]): Promise<string> => {
   return `Ouverture du client mail vers:${config.email}...`;
 };
 
-export const linkedin = async (args: string[]): Promise<string> => {
-  window.open(`https://www.linkedin.com/in/${config.social.linkedin}/`);
-
-  return 'Opening linkedin...';
-};
-
 // Search
 export const google = async (args: string[]): Promise<string> => {
   window.open(`https://google.com/search?q=${args.join(' ')}`);
