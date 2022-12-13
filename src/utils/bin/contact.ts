@@ -7,10 +7,10 @@ Base Return for sumfetch.
 `;
   } else {
     return `
-    ────██──██─────                          ${config.name}
-    ███████████▄───                         -----------
-    ──███████████▄─                          A PROPOS
-    ──███────▀████─                          ${config.name}
+    ────██──██─────                         
+    ███████████▄───                          ${config.name}
+    ──███████████▄─                         -----------
+    ──███────▀████─                          Trading Algorithmique
     ──███──────███─                          <u><a href="${config.tuto_url}" target="_blank">Tutoriel pour bien commencer.</a></u>
     ──███────▄███▀─                         爵 <u><a href="${config.stats}" target="_blank">Trading Stats</a></u>
     ──█████████▀───                         -----------
@@ -18,9 +18,9 @@ Base Return for sumfetch.
     ──███─────▀████                          <u><a href="mailto:${config.email}" target="_blank">${config.email}</a></u>
     ──███───────███                         -----------
     ──███─────▄████                         
-    ──████████████─                         
+    ──████████████─                        
     ████████████▀──                         
-    ────██──██─────                         
+    ────██──██─────                        
                                             
 
 `;
