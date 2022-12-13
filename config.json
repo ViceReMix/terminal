@@ -1,5 +1,5 @@
 {
-  "readmeUrl": "https://raw.githubusercontent.com/cveinnt/cveinnt/master/README.md",
+  "readmeUrl": "",
   "title": "Vice Remix",
   "name": "Vice Remix",
   "ascii": "btc",
@@ -9,12 +9,12 @@
   },
   "email": "info.webterminal@vice.re",
   "ps1_hostname": "viceremix-server",
-  "ps1_username": "user",
+  "ps1_username": "guest",
   "stats": "https://coinmarketman.com/features/verification/",
   "tuto_url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Resume.pdf",
   "donate_urls": {
-    "paypal": "https://paypal.me/cveinnt",
-    "patreon": "https://patreon.com/cveinnt"
+    "paypal": "",
+    "patreon": ""
   },
   "colors": {
     "light": {
